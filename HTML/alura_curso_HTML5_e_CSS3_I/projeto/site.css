@@ -50,6 +50,7 @@ aside {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	padding: 20px;
+	text-align: center;
 }
 
 aside h1 {
@@ -60,6 +61,10 @@ aside h1 {
 aside a {
 	color: inherit;
 	font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside li {
+	display: inline-block;
 }
 
 footer {
