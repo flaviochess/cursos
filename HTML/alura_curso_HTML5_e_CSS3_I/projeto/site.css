@@ -9,6 +9,7 @@ h1, h2 {
 
 h2 {
 	font-size: 30px;
+	clear: both;
 }
 
 h1 {
@@ -48,6 +49,11 @@ blockquote {
 	margin: 20px 40px;
 	width: 250px;
 	box-sizing: border-box;
+}
+
+cite {
+	font-style: italic;
+	float: right;
 }
 
 .navegacao-site {
@@ -122,4 +128,12 @@ strong {
 
 em {
     font-style: italic;
+}
+
+.fiat {
+	float: right;
+}
+
+.petrobras {
+	float: left;
 }
