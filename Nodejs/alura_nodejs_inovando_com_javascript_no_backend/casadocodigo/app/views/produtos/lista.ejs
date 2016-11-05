@@ -7,18 +7,24 @@
 	<h1>Listagem de Produtos</h1>
 
 	<table border="1">
-		<tr>
-			<td><strong>Tecnologia</strong></td>
-			<td><strong>Lib</strong></td>
-		</tr>
-		<tr>
-			<td>Node</td>
-			<td>Express</td>
-		</tr>
-		<tr>
-			<td>Node</td>
-			<td>EJS</td>
-		</tr>
+		<thead>
+			<tr>
+				<td><strong>id</strong></td>
+				<td><strong>titulo</strong></td>
+				<td><strong>descrição</strong></td>
+				<td><strong>preço</strong></td>
+			</tr>
+		</thead>
+		<tbody>
+			<%for(i = 0; i < lista.length; i++) {%>
+				<tr>
+					<td><%=lista[i].id%></td>
+					<td><%=lista[i].titulo%></td>
+					<td><%=lista[i].descricao%></td>
+					<td><%=lista[i].preco%></td>
+				</tr>
+			<%}%>
+		</tbody>
 	</table>
 </body>
 </html>
